@@ -9,7 +9,7 @@
         <title>Le tabelle</title>
         <style>
             table, th, td {border: 1px solid black;}
-            caption {font-weight: bold; color: blue}
+            caption {font-weight: bold; color: blue;}
             th {background-color: yellow;}
             td {text-align: center;}
         </style>
@@ -40,7 +40,6 @@
         </table>
     </body>
 </html>
-```[cite: 2]
 
 /* Aspetto generale della pagina */
 body {
