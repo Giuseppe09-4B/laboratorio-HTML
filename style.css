@@ -2,44 +2,22 @@
 * {
     box-sizing: border-box;
 }
-<!doctype html>
-<html>
-    <head>
-        <meta charset="UTF-8">
-        <title>Le tabelle</title>
-        <style>
-            table, th, td {border: 1px solid black;}
-            caption {font-weight: bold; color: blue;}
-            th {background-color: yellow;}
-            td {text-align: center;}
-        </style>
-    </head>
-    <body>
-        <table style="width:50%;">
-            <caption>TABELLA DI PROVA</caption>
-            <tr>
-                <th>CITTA'</th>
-                <th>TEMPERATURA</th>
-                <th>ORARIO</th>
-            </tr>
-            <tr>
-                <td>Marsala</td>
-                <td>20 gradi</td>
-                <td>Ore 11.00</td>
-            </tr>
-            <tr>
-                <td>Palermo</td>
-                <td>18 gradi</td>
-                <td>Ore 13.00</td>
-            </tr>
-            <tr>
-                <td>Messina</td>
-                <td>22 gradi</td>
-                <td>Ore 12.00</td>
-            </tr>
-        </table>
-    </body>
-</html>
+table, th, td {
+    border: 1px solid black;
+}
+
+caption {
+    font-weight: bold; 
+    color: blue;
+}
+
+th {
+    background-color: yellow;
+}
+
+td {
+    text-align: center;
+}
 
 /* Aspetto generale della pagina */
 body {
