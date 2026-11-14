@@ -1,14 +1,51 @@
-/* Include padding e bordi nelle dimensioni degli elementi */
-* {box-sizing: border-box}
-table, th, td {border: 1px solid black}
-caption {font-family: Times-New Roman; Font-weight: bold; color: blue;}
-th {background-color: yellow}
-td {text-align: center}
+/* Include padding e bordi nelle dimensioni di tutti gli elementi (si usa * e non -) */
+* {
+    box-sizing: border-box;
+}
 
+/* Stile generale della pagina: sfondo chiaro per far leggere bene il testo */
+body {
+    margin: 0;
+    padding: 20px;
+    background-color: #eef3f8; /* Azzurrino molto chiaro al posto del verde */
+    font-family: Arial, sans-serif;
+    color: #333333;
+}
 
+/* Tabella */
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse; /* Rende i bordi della tabella più puliti */
+    margin: 15px auto;
+}
 
-/* Intestazione */
-header {padding: 30px 20px; text-align: center; color: white; background-color: #244a73; width: 500px; height: 320px}
+caption {
+    font-family: "Times New Roman", serif;
+    font-weight: bold;
+    color: blue;
+    margin-bottom: 8px;
+}
+
+th {
+    background-color: yellow;
+    padding: 8px;
+}
+
+td {
+    text-align: center;
+    padding: 8px;
+}
+
+/* Intestazione centrata e allineata alla scheda */
+header {
+    max-width: 500px;
+    margin: 0 auto 20px auto; /* Centra l'intestazione e lascia spazio sotto */
+    padding: 30px 20px;
+    text-align: center;
+    color: white;
+    background-color: #244a73;
+    border-radius: 12px;
+}
 
 header h1 {
     margin: 0;
@@ -20,7 +57,7 @@ header p {
 
 /* Spazio intorno al contenuto principale */
 main {
-    padding: 30px 20px;
+    padding: 10px 0;
 }
 
 /* Scheda personale */
@@ -42,6 +79,7 @@ main {
 /* Paragrafo introduttivo */
 .descrizione {
     color: #526174;
+    line-height: 1.5;
 }
 
 /* Elenco degli interessi */
@@ -82,5 +120,3 @@ footer {
     font-size: 14px;
     color: #526174;
 }
-* {color: green; font-family: Arial; font-weight: bold; text-align: center; letter-spacing: 3px}
-
