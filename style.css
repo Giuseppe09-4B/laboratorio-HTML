@@ -1,5 +1,5 @@
 /* Include padding e bordi nelle dimensioni degli elementi */
-* {box-sizing: border-box; background-color:green}
+* {box-sizing: border-box}
 table, th, td {border: 1px solid black}
 caption {font-family: Times-New Roman; Font-weight: bold; color: blue;}
 th {background-color: yellow}
