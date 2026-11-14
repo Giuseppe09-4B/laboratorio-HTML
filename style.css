@@ -1,21 +1,18 @@
-/* Include padding e bordi nelle dimensioni di tutti gli elementi (si usa * e non -) */
 * {
     box-sizing: border-box;
 }
 
-/* Stile generale della pagina: sfondo chiaro per far leggere bene il testo */
 body {
     margin: 0;
     padding: 20px;
-    background-color: #eef3f8; /* Azzurrino molto chiaro al posto del verde */
+    background-color: #2e8b57;
     font-family: Arial, sans-serif;
-    color: #333333;
+    color: #fff;
 }
 
-/* Tabella */
 table, th, td {
     border: 1px solid black;
-    border-collapse: collapse; /* Rende i bordi della tabella più puliti */
+    border-collapse: collapse;
     margin: 15px auto;
 }
 
@@ -36,10 +33,9 @@ td {
     padding: 8px;
 }
 
-/* Intestazione centrata e allineata alla scheda */
 header {
     max-width: 500px;
-    margin: 0 auto 20px auto; /* Centra l'intestazione e lascia spazio sotto */
+    margin: 0 auto 20px auto;
     padding: 30px 20px;
     text-align: center;
     color: white;
@@ -55,12 +51,10 @@ header p {
     margin: 8px 0 0;
 }
 
-/* Spazio intorno al contenuto principale */
 main {
     padding: 10px 0;
 }
 
-/* Scheda personale */
 .scheda {
     max-width: 500px;
     margin: 0 auto;
@@ -68,21 +62,19 @@ main {
     background-color: white;
     border: 2px solid #d3dfec;
     border-radius: 12px;
+    color: #333;
 }
 
-/* Nome della persona */
 .scheda h2 {
     margin-top: 0;
     color: #244a73;
 }
 
-/* Paragrafo introduttivo */
 .descrizione {
     color: #526174;
     line-height: 1.5;
 }
 
-/* Elenco degli interessi */
 ul {
     padding-left: 25px;
 }
@@ -91,7 +83,6 @@ li {
     margin-bottom: 6px;
 }
 
-/* Collegamento con aspetto di pulsante */
 .pulsante {
     display: inline-block;
     margin-top: 12px;
@@ -102,21 +93,18 @@ li {
     text-decoration: none;
 }
 
-/* Aspetto del collegamento al passaggio del mouse */
 .pulsante:hover {
     background-color: #17334f;
 }
 
-/* Evidenza del collegamento quando selezionato con la tastiera */
 .pulsante:focus-visible {
     outline: 3px solid #b54e00;
     outline-offset: 4px;
 }
 
-/* Piè di pagina */
 footer {
     padding: 15px;
     text-align: center;
     font-size: 14px;
-    color: #526174;
+    color: #fff;
 }
