@@ -102,7 +102,7 @@ li {
     outline: 3px solid #b54e00;
     outline-offset: 4px;
 }
-
+img {position: static; right: 30px; top; 70px}
 footer {
     padding: 20px;
     text-align: center;
