@@ -1,11 +1,11 @@
 /* Include padding e bordi nelle dimensioni degli elementi */
-* {box-sizing: border-box; background color:green}
+* {box-sizing: border-box; background-color:green}
 table, th, td {border: 1px solid black}
 caption {font-family: Times-New Roman; Font-weight: bold; color: blue;}
 th {background-color: yellow}
 td {text-align: center}
-/* Aspetto generale della pagina */
-body {margin: 0; font-family: Arial, sans-serif; font-size: 16px; line-height: 1.6; color: #243247; background-color: #edf2f7}
+
+
 
 /* Intestazione */
 header {
